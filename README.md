@@ -1,1 +1,12 @@
 # CS-350-Embedded-Systems
+
+Included in this repository are two archived files from this course: my workspace before the final project, and my final project.
+
+**The Workspace** <br>
+Included in my workspace are the initial projects of this course. These included a simple PWM to cause blinking lights at alternating brightness, a UART that used a serial terminal to type in commands "ON/OFF" to control the red LED, and a button driven program that alternates between blinking "SOS" and "OK" in morse code as a button is pressed. 
+The final SOS/OK project could have been improved upon by the use of a task schedular, but my solution (albeit very complex) still works exactly as I had envisioned. There is a lot of default code provided from imports that could be better organized or removed, but I believe that all tasks are handled and managed to a reasonable degree of success. 
+These projects have taught me a lot about logic, the C language as a whole, and learning how to incorporate and apply libraries that I have otherwise never used before. It teaches you about good practices in developing State Machines, and how you could apply them elsewhere in your life. It helped me understand the inner workings of embedded systems that we otherwise don't even consider, such as traffic lights, toasters, etc. Another skill that these projects have helped emphasize is documentation. It's very easy to get lost in your code, but if you have your application planned from start to finish, you can stay focused on the task and function of each individual component.
+
+**The Final Project** <br>
+A simple thermostat! To be more specific, the prototype for a smart thermostat! It uses all the principles of the previous projects and includes: an I2C, UART and data transmission, and GPIO button functions. This program implemented a task scheduler, although a State Machine might have worked. Part of this project was realizing what components might be redundant, and which might be expanded upon. The essence of this project is our CC3220S board engages the thermometer, reads it, and uses a timer driven task scheduler to routinely check and update. 
+One big change I might have made is the use of Global Variables and consolidating functions, but that skill develops alongside my skills in the C language. Memory optimization is a very challenging, and subtle priority that I have not yet had the opportunity to explore. However, I am congizant of it and always continuing to learn and improve.
