@@ -1,4 +1,4 @@
-# CS-350-Embedded-Systems
+# Embedded Systems (350) // Thermostat w/ I2C, UART, GPIO for CC3220S
 
 Included in this repository are two archived files from this course: my workspace before the final project, and my final project.
 
